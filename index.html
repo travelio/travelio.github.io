@@ -1,0 +1,418 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>travelicious.co.id</title>
+	<link rel="icon" type="image/png" href="images/fav.png" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="fonts/font_awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+	<!---Menu Nav----->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menunav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+
+					<h3><img src="images/user.png">travelicious</h3>
+				</a>
+			</div>
+			<div class="collapse navbar-collapse navbar-right" id="menunav">
+				<ul id="fontmenu" class="nav navbar-nav">
+					<li><a href="index.html"><span class="fa fa-home" aria-hidden="true"></span>Beranda</a></li>
+					<li><a href="catalog.html"><span class="fa fa-ticket" aria-hidden="true"></span>Tiket</a></li>
+					<li><a href="blog.html"><span class="fa fa-desktop" aria-hidden="true"></span>Blog</a></li>
+					<li><a href="peta.html"><span class="fa fa-map" aria-hidden="true"></span>Peta</a></li>
+					<li><a href="event.html"><span class="fa fa-calendar-check-o" aria-hidden="true"></span>Event</a></li>
+				</ul>
+				<form class="navbar-form navbar-right" role="search">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<!-------jumbotron----->
+	<div id="jum1" class="parallax-window" data-parallax="scroll" data-image-src="images/header1.jpg">
+		<div class="container-fluid text-center">
+			<div id="header" class="rows">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<h3>Let's explore the amazing indonesia</h3>
+					<br><a href="login.html" class="btn btn-default"><span class="fa fa-user" ></span>Login</a><span class="vertical"> | </span><a href="register.html" type="button" class="btn btn-default"><span class="fa fa-gear"></span>Register</a>
+					<p id="demo"></p>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+	</div>
+	<!------services----->
+	<div id="service" class="container text-center">
+		<h3>Our Service</h3>
+		<p>Kami menyediakan fasilitas terbaik yang bisa anda dapatkan selama proses perjalanan wisata anda, kami menanggung penuh semua yang anda butuhkan, mulai dari penginapan hingga keamanan selama waktu libur anda, jadi tunggu apa lagi. </p>
+		<div id="serve" class="rows">
+			<div class="col-xs-6 col-md-3">
+				<img src="images/deliv.png">
+				<h5>Homestay</h5>
+				<p>Kami melengkapi fasilitas istirahat anda dengan homestay yang nyaman untuk bersantai</p>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<img src="images/menu.png">
+				<h5>Security</h5>
+				<p>Semua barang anda kami tanggung keamanannya sepenuhnya demi kelancaran rekreasi</p>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<img src="images/murah.png">
+				<h5>Asuransi</h5>
+				<p>Demi kenyamanan anda kami menyediakan asuransi dengan proses yang aman</p>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<img src="images/spot.png">
+				<h5>Travel Pack</h5>
+				<p>Selama perjalanan wisata, semua kebutuhan alat rekreasi kami sediakan tanpa ada uang sewa</p>
+			</div>
+		</div>
+
+
+
+		<div id="serve2" class="rows">
+			<div class="col-xs-6 col-md-3">
+				<img src="images/24jam1.png">
+				<h5>Snack</h5>
+				<p>Untuk menemani waktu perjalanan anda, kami memberikan snack selama perjalanan</p>
+			</div>
+
+			<div class="col-xs-6 col-md-3">
+				<img src="images/aman.png">
+				<h5>Makan</h5>
+				<p>Kami menjamin semua kebutuhan makanan anda, satu hari 3x selama perjalanan wisata </p>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<img src="images/bayar.png">
+				<h5>Guide</h5>
+				<p>Selama perjalanan anda akan dipandu langsung oleh tour guide kami yang sudah berpengalaman</p>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<img src="images/siapsaji.png">
+				<h5>Travel Book</h5>
+				<p>Semua informasi mengenai wisata bisa anda dapatkan secara gratis melalui buku panduan wisata</p>
+			</div>
+		</div>
+	</div>
+	<!-----mitra-------->
+	<div id="mitra" class="jumbotron">
+		<div class="container-fluid text-center">
+			<div class="rows">
+				<div class="col-md-4">
+					<h3>Kini kami hadir lebih dekat dengan anda</h3>
+					<br>
+					<p>Aplikasi travelicious kini tersedia di Playstore dan App Store. Ini memberikan kemudahan untuk anda, dimanapun anda berada tanpa harus membuka perangkat desktop, anda dapat mencari serta memesan paket wisata serta mendapat informasi seputar wisata indonesia hanya dalam genggaman.
+					</p>
+					<br>
+					<span class="available"><h4>Download sekarang juga :</h4></span>
+					<br>
+					<div id="badge" class="container-fluid text-center">
+						<div class="col-sm-6 col-md-12">
+							<div class="rows">
+								<div class="col-xs-6">
+									<a href="#">
+										<img src="images/apple.png">
+									</a>
+								</div>
+								<div class="col-xs-6">
+									<a href="#">
+										<img src="images/google.png">
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="col-md-4">
+					<img src="images/iphone.png" class="img-responsive">
+				</div>
+				<div class="col-md-4">
+					<div id="apps">
+						<h3>Keuntungan pesan lewat smartphone</h3>
+						<br>
+						<div class="rows">
+							<div class="col-xs-6 col-md-6">
+								<img src="images/phonee.png">
+								<h3>Pesan</h3>
+								<p>Pesan paket wisata lewat smartphone kapan pun serta dimanapun anda</p>
+							</div>
+							<div class="col-xs-6 col-md-6">
+								<img src="images/ok.png">
+								<h3>Ok!</h3>
+								<p>Request paket wisata anda kami terima, proses pemesanan sukses</p>
+							</div>
+							<div class="col-xs-6 col-md-6">
+								<img src="images/clock.png">
+								<h3>Tunggu Jadwal</h3>
+								<p>Proses selesai, menunggu beberapa hari sebelum jadwal pemberangkatan</p>
+							</div>
+							<div class="col-xs-6 col-md-6">
+								<img src="images/enjoy.png">
+								<h3>Enjoy!</h3>
+								<p>Selamat berlibur, kami akan membantu anda selama waktu wisata anda</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!------------------blog------------------------>
+	<div id="blog" class="container-fluid ">
+		<center id="service">
+			<h3>News Article</h3>
+			<p>Dapatkan informasi terkini mengenai berita terbaru serta tips dan trik seputar rekreasi di blog kami
+		</center>
+		<div id="blog1" class="rows">
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<img src="images/indonesia/bedugulbalifix.jpg">
+					<div class="caption">
+						<a href="#"><h4>Danau beratan destinasi wisata di bedugul bali</h4></a>
+						<hr>
+						<p>Danau Beratan atau juga disebut Danu Bratan terletak di kawasan Bedugul, desa Candikuning, kecamatan Baturiti, kabupaten Tabanan, Bali.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<img src="images/indonesia/bromofix.jpg">
+					<div class="caption">
+						<a href="#"><h4>Menuju puncak sunrise gunung bromo</h4></a>
+						<hr>
+						<p>Merupakan sebuah taman nasional yang terletak di propinsi Jawa Timur negara Indonesia dan mempunyai banyak sekali Keindahan yang dapat Anda nikmati.</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<img src="images/indonesia/bunakenfix.jpg">
+					<div class="caption">
+						<a href="#"><h4>Indahnya taman laut bunaken</h4></a>
+						<hr>
+						<p>Taman Laut Nasional Bunaken mempunyai area seluas 75.265 ha. Terdapat 5 pulau yang termasuk taman nasional ini yaitu Pulau Naen, Pulau Bunaken, Pulau Manado Tua, Pulau Siladen, dan Pulau Mantehage beserta anak pulau sekelilingnya.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="blog2" class="rows">
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<img src="images/indonesia/kotatuafix.jpg">
+					<div class="caption">
+						<a href="#"><h4>Mengenang sejarah di kota tua jakarta</h4></a>
+						<hr>
+						<p>Jakarta sebagai ibukota negara berupaya untuk memberikan berbagai macam kegiatan dan tempat menarik yang dapat pengunjung, baik lokal maupun asing, berkunjung ke Jakarta.</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<img src="images/indonesia/pulaukomodofix.jpg">
+					<div class="caption">
+						<a href="#"><h4>Melihat keajaiban dunia di pulau komodo</h4></a>
+						<hr>
+						<p>Pulau Komodo terletak di Kepulauan Nusa Tenggara. Pulau Komodo dikenal sebagai habitat asli hewan komodo. Pulau ini juga merupakan kawasan Taman Nasional Komodo.</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<img src="images/indonesia/tangkubanfix.jpg">
+					<div class="caption">
+						<a href="#"><h4>Pesona eksotis tangkuban perahu</h4></a>
+						<hr>
+						<p>Gunung Tangkuban Perahu atau juga sering disebut Tangkuban Parahu merupakan salah satu gunung terbesar di dataran Parahyangan. </p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!----mitra2-------->
+	<div class="parallax-window" data-parallax="scroll" data-image-src="images/header5.jpg">
+		<div class="rows">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<p>Subscribe kami agar kamu bisa mendapatkan informasi promo tiket terbaru hingga informasi lain seputar wisata indonesia langsung dari inbox email smartphonemu
+					<p>
+						<div class="input-group">
+							<input type="text" class="form-control input-lg" placeholder="email">
+							<span class="input-group-btn">
+        <button class="btn-lg btn-default" type="button"><span class="fa fa-rss-square"></span>Subscribe</button>
+							</span>
+						</div>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+	</div>
+
+	<!-----------------deliv------------------>
+	<div class="black">
+		<div id="jum3" class="container">
+			<div class="rows">
+
+				<div class="col-xs-4 col-md-2">
+					<dl>
+						<dd>About</dd>
+						<dt><a href="#">Contact Us</a></dt>
+						<dt><a href="#">About Us</a></dt>
+						<dt><a href="#">FAQ</a></dt>
+						<dt><a href="#">Travel Information</a></dt>
+					</dl>
+				</div>
+				<div class="col-xs-4 col-md-2">
+					<dl>
+						<dd>Legal</dd>
+						<dt><a href="#">Privacy Policy</a></dt>
+						<dt><a href="#">Term and Condition</a></dt>
+					</dl>
+				</div>
+				<div class="col-xs-4 col-md-2">
+					<dl>
+						<dd>Info</dd>
+						<dt><a href="#">Images</a></dt>
+						<dt><a href="#">E-brochures</a></dt>
+						<dt><a href="#">Videos</a></dt>
+						<dt><a href="#">Multimedia</a></dt>
+						<dt><a href="#">Logo &amp; Banners</a></dt>
+					</dl>
+				</div>
+				<div class="col-xs-4 col-md-2">
+					<dl>
+						<dd>Media</dd>
+						<dt><a href="#">News</a></dt>
+						<dt><a href="#">Photo Gallery</a></dt>
+						<dt><a href="#">Video Gallery</a></dt>
+					</dl>
+				</div>
+				<div class="col-xs-4 col-md-2">
+					<dl>
+						<dd>Share</dd>
+						<dt><a href="#">Experience</a></dt>
+						<dt><a href="#">Moments</a></dt>
+						<dt><a href="#">Forum</a></dt>
+					</dl>
+				</div>
+				<div class="col-xs-4 col-md-2">
+					<dl>
+						<dd>Follow</dd>
+						<dt><a href="#">Facebook</a></dt>
+						<dt><a href="#">Twitter</a></dt>
+						<dt><a href="#">Youtube</a></dt>
+						<dt><a href="#">Instagram</a></dt>
+						<dt><a href="#">Vimeo</a></dt>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div id="jum4" class="container text-center">
+			<h3><img src="images/user.png"> travelicious</h3>
+		</div>
+		<div id="jum4" class="container text-center">
+			<div class="rows">
+
+				<div class="col-sm-6 col-md-4">
+
+					<p>Lebih mudah dan hemat di aplikasi travelicious. Masukkan nomor handphone untuk mendapatkan link download aplikasi</p>
+
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Nomor" name="srch-term" id="srch-term">
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="submit"><i class="fa fa-send"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4">
+					<p>travelicious merupakan startup biro wisata dalam negeri, yang sudah berpengalaman selama 5 tahun dibidang pariwisata dan Kami berkomitmen memberi pelayanan terbaik untuk anda.</p>
+				</div>
+
+				<div class="col-sm-6 col-md-4">
+
+					<p><span class="fa fa-map-marker"></span>Jalan Ring Road Utara, Condong Catur, Depok, Kec. Sleman, Daerah Istimewa Yogyakarta</p>
+
+					<p><span class="fa fa-envelope"></span>travelicious@gmail.com</p>
+
+					<p><span class="fa fa-phone"></span>Call center 558978</p>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="jum5" class="jumbotron">
+			<div class="container-fluid text-center">
+				<div class="rows">
+					<div class="col-sm-6 col-md-4"></div>
+					<div class="col-sm-6 col-md-4">
+
+						<p>Hubungkan dengan :</p>
+						<div class="col-xs-4">
+							<a href="#">
+								<img src="images/gmaps.png">
+								<p>Google Maps</p>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a href="#">
+								<img src="images/waze.png">
+								<p>Waze</p>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a href="#">
+								<img src="images/bingmaps.png">
+								<p> Bing Maps</p>
+							</a>
+						</div>
+
+					</div>
+					<div class="col-sm-6 col-md-4"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="foot" class="container-fluid text-center">
+			<center>
+				<p>Develop with <span class="fa fa-heart"></span> in Jogja</p>
+			</center>
+		</div>
+	</div>
+	<!--a href="#" class="scrollup"></a-->
+	<!---------------JS-------------------------->
+	<script src="js/jquery-1.12.1.min.js"></script>
+	<script src="js/parallax.js/parallax.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

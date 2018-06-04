@@ -1,0 +1,421 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa/Comfortaa_Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Comfortaar';
+    src: url('fonts/Comfortaa/Comfortaa_Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico/Pacifico.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'gotr';
+    src: url('fonts/got/GothamRoundedLight_21020.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'gotb';
+    src: url('fonts/got/GothamRoundedMedium_21022.ttf') format('truetype');
+}
+.navbar {
+    transition-delay: 0.1s;
+    border-bottom: none;
+    background-color: transparent;
+    padding: 20px;
+}
+.navbar-inverse button.navbar-toggle.collapsed:focus,
+.navbar-inverse button.navbar-toggle.collapsed{ background-color: transparent;
+    -webkit-transition:all .4s;
+    -moz-transition:all .4s;
+    -ms-transition:all .4s;
+    -o-transition:all .4s;
+    transition:all .4s;
+}
+.navbar-toggle {
+    border: none;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: white;
+}
+#fontmenu a {
+    font-family: comfortaa;
+    font-size:16px;
+    color: white;
+}
+hr {
+    height: 1px;
+     background: #eb1b77 -webkit-linear-gradient(left, #e84b3f, #b92188);
+    background: #eb1b77 -o-linear-gradient(left, #e84b3f, #b92188);
+    background: #eb1b77 linear-gradient(to right, #e84b3f, #b92188);
+}
+.fa {
+    margin-right: 6px;
+}
+#fontmenu a:hover {
+    color: chartreuse;
+    
+}
+.navbar-brand h3 {
+    margin-top: -7px;
+    font-family: Pacifico;
+    font-size:30px;
+    color: chartreuse;
+}
+.navbar-brand img {
+    height: 30px;
+    margin-top: -15px;
+    margin-right: 5px;
+}
+#jum1 {
+    min-height: 700px;
+    background: transparent;
+}
+#header {
+    margin-top: 180px;
+    
+}
+#header h3 {
+    font-family: comfortaa;
+    color: white;
+    font-size: 40px;
+    margin-top: -5px;
+}
+#header p {
+    font-family: comfortaa;
+    color: white;
+}
+#header .btn {
+    margin: 10px;
+    font-family: pacifico;
+    font-size: 16px;
+	background-color:  #ee395e;
+	color: white;
+	border: solid 1px transparent;
+}
+
+#header .btn:hover {
+    background-color:  white;
+    color: #ee395e;
+}
+.vertical {
+   color: white;
+}
+#service h3 {
+    font-family: pacifico;
+    color: #ee395e;
+    margin-top:30px;
+}
+#service p {
+    font-family: comfortaar;
+}
+#serve {
+    margin-top: 20px;
+}
+#serve img {
+    margin-top: 20px;
+}
+#serve h5 {
+    font-family: comfortaa;
+    font-size: 16px;
+}
+#serve p{
+    font-family: comfortaar;
+}
+#serve2 {
+    margin-top: 250px;
+}
+#serve2 img {
+    margin-top: 10px;
+}
+#serve2 h5 {
+    font-family: comfortaa;
+    font-size: 16px;
+}
+#serve2 p{
+    font-family: comfortaar;
+    margin-bottom: 50px;
+}
+#mitra {
+    background-image: url(images/header7.jpg);
+    background-size: cover;
+}
+#mitra img {
+    margin: auto;
+    height: 500px;
+}
+#mitra h3 {
+    font-family: comfortaar;
+    color: white;
+    font-size: 25px;
+}
+#mitra p {
+    font-family: comfortaar;
+    color: white;
+    font-size: 16px;
+	text-align: center;
+}
+.available h4 {
+    text-align: center;
+    font-family: comfortaa;
+    color: white;
+    margin-top: -10px;
+}
+#badge img {
+    height: 50px;
+}
+#apps h3:first-child {
+    font-family: comfortaar;
+}
+#apps .rows img {
+    height: 50px;
+}
+#apps .rows h3 {
+    font-size: 16px;
+}
+#apps .rows p {
+    font-size: 13px;
+    font-family: comfortaar;
+    text-align: center;
+}
+#apps h3 {
+    font-family: pacifico;
+}
+.col-md-6 h3 {
+    font-family: pacifico;
+    margin-top: 25px;
+    color: white;
+}
+.col-sm-6 h4 {
+    font-family: pacifico;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+}
+.col-sm-6 p {
+    font-family: comfortaa;
+    color: white;
+    text-align: left;
+}
+.col-md-3 img {
+    margin-top: 40px;
+}
+body {
+	background-color: #f1f4f9;
+}
+#blog {
+    margin-bottom: 20px;
+}
+#blog .thumbnail {
+    background-color: white;
+    border-radius: 0;
+    border: none;
+}
+#blog1 {
+    margin-top: 30px;
+}
+#blog1 a {
+    font-family: comfortaa;
+	color: black;
+	text-decoration: none;
+}
+#blog1 a:hover {
+	color: #ee395e;
+}
+#blog1 p {
+    font-family: comfortaar;
+}
+#blog2 a {
+     font-family: comfortaa;
+	 color: black;
+	 text-decoration: none;
+}
+#blog2 a:hover {
+	color: #ee395e;
+}
+#blog2 p {
+    font-family: comfortaar;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+.input-group {
+    font-family: comfortaar;
+}
+.input-group-btn button {
+    background-color:  #ee395e;
+    color: white;
+    font-family: pacifico;
+    border: solid 1px #ee395e;
+    border-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.input-group-btn button:hover {
+    border: solid 1px white;
+    background-color:  white;
+    color: #ee395e;
+}
+.parallax-window p {
+    font-family: comfortaar;
+    color: white;
+    margin-top: 120px;
+    margin-bottom: -100px;
+}
+.black {
+    background-color: black;
+}
+#jum3 {
+    
+}
+#jum3 dd {
+    margin-top: 70px;
+    font-family: comfortaa;
+    font-size: 23px;
+    color:chartreuse;
+}
+#jum3 dt {
+    font-family: comfortaar;
+    margin-top: 8px;
+}
+#jum3 a {
+    color: white;
+    text-decoration: none;
+}
+#jum3 a:hover {
+     color: chartreuse;
+}
+#jum4 {
+	margin-top: 20px;
+}
+#jum4 h3{
+	font-family: pacifico;
+	color: chartreuse;
+	font-size: 30px;
+	margin-top: -15px;
+}
+#jum4 img {
+	height: 35px;
+	margin-top: -15px;
+}
+#jum4 p {
+	font-family: comfortaar;
+	color: white;
+	text-align: center;
+}
+#jum5 {
+	background-image: url(images/mymaps.jpg);
+	background-size: cover;
+	margin-top: 30px;
+}
+#jum5 img {
+	height: 80px;
+}
+#jum5 p {
+	text-align: center;
+	font-family: comfortaa;
+	font-size: 16px;
+}
+#jum5 a {
+	text-decoration: none;
+}
+#jum5 a img:hover {
+	background-color: rgba(238, 57, 94, 0.7);
+	border-radius: 10px;
+}
+#foot {
+    background-color: #000000;
+    margin-top: 10px;
+    padding: 10px;
+}
+#foot p {
+    padding: 4px;
+    font-family: comfortaar;
+    color: white;
+}
+#foot span {
+    font-family: pacifico,fontAwesome;
+    color:  red;
+}
+.scrollup {
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+    background: url('images/boost.png') no-repeat;
+    opacity: 0.3;
+}
+.scrollup:hover {
+    opacity: 1;
+}
+/*Mobile Responsive*/
+@media screen and (max-width: 480px) {
+    #header h1 {
+        margin-top: -30px;
+        font-size: 30px;
+    }
+    #header p {
+        font-size: 12px;
+    }
+    #serve img {
+        height: 40px;
+    }
+    #serve h5 {
+        font-size: 14px;
+    }
+    #serve p {
+        font-size: 11px;
+    }
+    #serve2 img {
+        height: 40px;
+    }
+    #serve2 h5 {
+        font-size: 14px;
+    }
+    #serve2 p {
+        font-size: 11px;
+    }
+    #jum3 img {
+        height: 50px
+    }
+    #jum3 dd {
+        font-size: 15px;
+    }
+    #jum3 dt {
+        font-size: 13px;
+    }
+    #foot p  {
+        text-align: center;
+        font-size: 12px;
+    }
+	#jum4 .input-group {
+		margin-bottom: 10px;
+	}
+	#jum4 .col-md-4:nth-child(2){
+		border-left: none;
+		border-right: none; 
+	}
+	#jum4 p {
+		text-align: center;
+	}
+}
+/*desktop responsive */
+@media screen and (max-width: 1024px) {
+    
+    #mitra .col-md-4 {
+        margin-top: -5px;
+    }
+	#jum4 p {
+		font-size: 12px;
+	}
+	#badge img {
+		height: 40px;
+	}
+	#jum5 p {
+		font-size: 12px;
+		margin-right: -8px;
+	}
+}

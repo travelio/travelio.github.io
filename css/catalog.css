@@ -1,0 +1,85 @@
+#header {
+	margin-top: 150px;
+}
+.banner-form {
+	background-color:  rgba(0, 0, 0, 0.6);
+	padding: 25px;
+	border-radius: 5px;
+}
+.form-title h2 {
+	font-family: comfortaa;
+	color: white;
+	font-size: 25px;
+}
+.form-group {
+	font-family: comfortaar, fontAwesome;
+}
+#header h3 {
+	text-align: center;
+	font-family: comfortaar;
+}
+#header p:nth-child(2) {
+	margin-top: 0px;
+	font-family: comfortaar;
+	text-align: justify;
+}
+#promo {
+	margin-top: 80px;
+}
+#promo img {
+	height: 80px;
+}
+#promo h3 {
+	font-size: 18px;
+	text-align: center;
+	font-family: comfortaa;
+	margin-top: 2px;
+}
+#promo p {
+	margin: 0px;
+	text-align: center;
+}
+#kode {
+	margin-top: 50px;
+}
+body {
+	background-color:  #f1f4f9;
+}
+#kode .thumbnail img {
+	margin-top: 0px;
+	height: 100%;
+	width: 100%;
+}
+#kode .thumbnail {
+	background-color: white;
+	border: none;
+}
+#kode .thumbnail h4, a {
+	color: black;
+}
+#kode .thumbnail p {
+	color: black;
+}
+@media screen and (max-width: 480px) {
+    #header {
+        font-size: 20px; 
+	    margin-top: 40px;	
+    }
+	#header h3 {
+		font-size: 25px;
+		margin-top: 30px;
+	}
+	#promo h3 {
+		font-size: 25px;
+		margin-top: 10px;
+	}
+	#header img {
+		height: 60px;
+	}
+	.banner-form {
+		margin-top: 500px;
+		margin-bottom: 10px;
+	}
+	
+	
+}

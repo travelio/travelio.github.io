@@ -1,0 +1,21 @@
+#jum1 h3 {
+    font-size: 26px;
+}
+#jum1 p {
+    margin-top: 0px;
+    font-size: 12px;
+}
+.form-group {
+    font-family: comfortaar;
+}
+#jum1 .btn-default {
+    font-family: pacifico;
+}
+#jum1 .btn-default:hover {
+    color: black;
+}
+@media (max-width: 480px) {
+    #jum1 img {
+        margin-top: -30px;
+    }
+}
